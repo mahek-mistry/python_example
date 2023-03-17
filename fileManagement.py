@@ -1,0 +1,20 @@
+file=open("first file.txt","w")
+file.write("file management demo using python")
+file.close()
+print("file written successfully")
+print("***************************************************")
+
+file=open("first file.txt","r")
+print(file.read())
+file.close()
+print("***************************************************")
+
+file=open("first file.txt","a")
+file.write("\n now this file is appended...")
+file.close()
+print("***************************************************")
+
+file=open("first file.txt","a")
+file.write("\n now this file is appended...")
+file.close()
+print("***************************************************")
